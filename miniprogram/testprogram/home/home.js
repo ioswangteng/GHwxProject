@@ -26,7 +26,6 @@ Page({
     current_text: '01',
     inputShowed: false,
     inputVal: ""
-
   },
   getRequestData: function () {
     var that = this;
