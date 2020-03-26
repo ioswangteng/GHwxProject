@@ -46,10 +46,10 @@ Page({
           });
         } else {
           wx.showToast({
-            title: '加载数据失败',
+            title: '加载数据失败啦',
           }),
             that.setData({
-              showToastText: "加载数据失败",
+              showToastText: "加载数据失败啦",
             });
         }
       }
