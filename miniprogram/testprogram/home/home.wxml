@@ -1,0 +1,71 @@
+<view class="page">
+
+  <!-- <Select class="section-select" select-array='{{selectArray}}'  current-text="{{current_text}}" bind:getNowData='getCurrentTextAction'></Select> -->
+
+  <we-searchbar bindselectresult="searchInputAction" bindinput='testSearch' bind:clear="clearInput" bind:hide="hideInput">
+  </we-searchbar>
+
+  <view class="weui-cells searchbar-result searchBarCss" wx:if="{{inputVal.length > 0}}">
+    <!-- 搜索列表 -->
+    <view class="weui-cell__bd" wx:for="{{requestArr}}" wx:key="GUID">
+
+      <navigator url="" class="weui-cell" hover-class="weui-cell_active" data-id='{{item.GUID}}' data-name='{{item.TITLE}}' bindtap='btn_name'>
+        <view class="weui-cell__bd">
+          <view>{{item.TITLE}}</view>
+        </view>
+      </navigator>
+
+    </view>
+
+  </view>
+
+
+
+
+  <!-- 搜索时内容 -->
+  <!-- <view wx:if="{{requestArr.length > 0}}" class="search-content-body">
+  <block wx:for="{{requestArr}}" wx:key="GUID">
+    <view class="search-result-item">
+      <searchHighlightTextView 
+       class="result-item" 
+       datas='{{item}}' 
+       bindtap="searchResult" 
+       data-id='{{item.GUID}}'
+       >哈哈哈</searchHighlightTextView>
+    </view>
+  </block>
+</view> -->
+  <!-- <view class="weui-tab__content" hidden="{{activeIndex == 0}}" style="height:calc(100vh - 50px);margin-top:53px;"> -->
+
+
+
+  <wxs src="../../utils/common.wxs" module='tools'></wxs>
+  <view>{{tools.msg}}</view>
+  <view>{{tools.testFun(tools.testText)}}</view>
+
+  <block wx:if="{{requestArr.length>0}}">
+
+    <view wx:for="{{requestArr}}" wx:key="GUID" wx:for-index="index" wx:for-item="item" class="weui-cells firstList">
+
+      <view hover-class="weui-cell_active" class="weui-cell" bindtap="clickItem">
+        <view class="weui-cell__hd">
+          <image style="width: 100rpx; height: 100rpx; background-color: #eeeeee;" src="{{item.PICTURE}}" mode="aspectFit"></image>
+        </view>
+
+
+        <view class="weui-cell__bd title">{{item.TITLE}}</view>
+        <view class="weui-cell__ft subTitle">{{item.CAPTION}}</view>
+
+        <view class='weui-cell__ft_in-access'></view>
+
+      </view>
+
+    </view>
+  </block>
+
+
+  <view class="list" wx:else>
+    <text>{{showToastText}}</text>
+  </view>
+
+</view>

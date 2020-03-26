@@ -1,0 +1,11 @@
+var testText="'hello world'from common.wxs";
+var testFun=function(e){
+return e;
+}
+
+module.exports={
+  testText:testText,
+  testFun:testFun
+}
+
+module.exports.msg="测试测试了"

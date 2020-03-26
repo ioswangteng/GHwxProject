@@ -1,0 +1,19 @@
+/* miniprogram/testprogram/my/myDetial/myDetial.wxss */
+
+.info{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.img{
+width: 100rpx;
+}
+.title{
+display: flex;
+}
+.ptitle,.stitle{
+width: 50%;
+white-space: normal;
+word-wrap: break-word;
+word-break: break-all;
+}

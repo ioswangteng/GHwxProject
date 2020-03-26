@@ -1,0 +1,61 @@
+/* miniprogram/testprogram/my/myNewInfor/myNewInfor.wxss */
+.header{
+  display: flex;
+  flex-direction: row;
+}
+.nav{
+  width: 100%;
+  height: 100rpx;
+}
+.scroll-view_H{
+    display: flex;
+    flex-direction: row;
+    height: 100rpx;
+    margin-left: 10rpx;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1rpx solid rgba(0, 0, 0, 0.1);
+}
+.normal{
+  height: 100rpx;
+  line-height: 100rpx;
+  place-content: 10rpx;
+  padding-right: 10rpx;
+  font-size: 32rpx;
+}
+.select{
+  font-size: 48rpx;
+  font-weight: bold;
+}
+.scroll{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border-right: 1rpx solid rgba(0, 0, 0, 0.1);
+}
+.swiper{
+  padding: 0 20rpx;
+  background-color: wheat;
+}
+.swiper-items{
+  background-color:red;
+  height: 100%;
+}
+.scroll-views{
+ background-color:darkgoldenrod;
+  height: 100%;
+}
+.quest_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+}
+.item{
+  background-color: white;
+} 
+.active{
+  color: yellowgreen;
+}

@@ -1,0 +1,16 @@
+<view class="page">
+
+  <block wx:if="{{getDataInfo}}" wx:for="{{getDataInfo}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+    <view class="weui-cells {{index==0?'firstList':''}}">
+      <view class="weui-cell" hover-class="weui-cell_active" bindtap="clickItem" data-title="{{index}}">
+        <view class="weui-cell__bd">{{index}}</view>
+        <view class="weui-cell__ft">{{item}}</view>
+      </view>
+
+    </view>
+  </block>
+
+</view>
+
+<view bindtap='click'>点击</view>
+<view hidden="{{hiddenName}}">隐藏显示部分</view>

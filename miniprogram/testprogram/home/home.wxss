@@ -1,0 +1,52 @@
+/* miniprogram/testprogram/homePage/home.wxss */
+
+
+.title {
+  display: flex;
+  font-weight: bold;
+  color: red;
+  width: 60%;
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: break-all;
+  padding-left: 10rpx;
+}
+
+.subTitle {
+  width: 40%;
+  font-weight: normal;
+  display: flex;
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: break-all;
+  padding-right: 10rpx;
+}
+
+.image {
+  background-color: yellowgreen;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+}
+
+.imge {
+  margin-right: 5px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+.firstList{
+  margin-top: 0;
+}
+
+.search-content-body{
+  background-color: darkorchid;
+}
+.search-result-item{
+  background-color: cadetblue;
+}
+.result-item{
+  background-color: khaki;
+}

@@ -1,0 +1,27 @@
+<view class="page">
+
+  <view class="weui-cells firstList">
+
+    <view class="userinfo firstList" bindtap="clickHeader" data-title="{{userInfo.nickName}}">
+      <view class="headerView">
+        <image style="width: 100rpx; height: 100rpx; background-color: #eeeeee;" mode="aspectFit" src="{{avatarUrl}}"></image>
+        <text>{{userInfo.nickName}}</text>
+      </view>
+      <view class="testAcross">></view>
+    </view>
+    <view class="hr"></view>
+
+    <view wx:if="{{allData}}" block wx:for="{{allData}}" wx:key="guid">
+      <view class="weui-cell " hover-class="weui-cell_active" block wx:for="{{item.testData}}" wx:key="id" bindtap="clickItem" data-id="{{item}}">
+        <view class="leftText">{{item.name}}</view>
+
+        <view class="rightText">{{item.subTitle}}</view>
+        <view class="imgview">
+
+          <image class='img' src='http://romenstech.oss-cn-qingdao.aliyuncs.com/shop/shareqrcode/20200217/YXT-5e4a092b1a5e5113155.jpg' mode='aspectFit'></image>
+        </view>
+      </view>
+      <view class="hr"></view>
+    </view>
+  </view>
+</view>

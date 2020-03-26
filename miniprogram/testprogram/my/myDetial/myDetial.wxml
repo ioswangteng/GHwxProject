@@ -1,0 +1,15 @@
+<!--miniprogram/testprogram/my/myDetial/myDetial.wxml-->
+<view class="container">{{dataArr.name}}</view>
+
+<view class="info">
+
+  <image class='img' src='http://romenstech.oss-cn-qingdao.aliyuncs.com/shop/shareqrcode/20200217/YXT-5e4a092b1a5e5113155.jpg' height='50rpx' mode='aspectFit'></image>
+
+  <view class="title">
+    <view class="ptitle">标题</view>
+    <view class="stitle">副标题aaaaaaaaa222222222222222222222222222222222222</view>
+  </view>
+
+  <image class='img' src='http://romenstech.oss-cn-qingdao.aliyuncs.com/shop/shareqrcode/20200217/YXT-5e4a092b1a5e5113155.jpg' height='50rpx' mode='aspectFit'></image>
+
+</view>

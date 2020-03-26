@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "Select": "../../components/selectView/selectView",
+    "we-searchbar":"../../components/weui-miniprogram/searchbar/searchbar",
+    "highLigh":"../../components/highlightText/highlightText"
+
+  }
+}

@@ -1,0 +1,18 @@
+<!--miniprogram/testprogram/mycharts/mycharts.wxml-->
+<cover-view style="width:100%;height:60rpx;position: fixed;z-index: 100000;background: #f0f;white-space:normal">
+  你说说说是所所所所所所所哈哈哈哈哈哈哈哈
+</cover-view>
+
+<view class="container">
+
+  <view style="background-color: yellow;">我的测试测试</view>
+  <ff-canvas id="column-dom" canvas-id="column" opts="{{ opts }}"></ff-canvas>
+
+  <view style="background-color: yellow;">
+    什么秘密木木木木木木木木木或多或多或多胡或付付 什么秘密木木木木木木木木木或多或多或多胡或付付 什么秘密木木木木木木木木木或多或多或多胡或付付 什么秘密木木木木木木木木木或多或多或多胡或付付 什么秘密木木木木木木木木木或多或多或多胡或付付 什么秘密木木木木木木木木木或多或多或多胡或付付 什么秘密木木木木木木木木木或多或多或多胡或付付 什么秘密木木木木木木木木木或多或多或多胡或付付 什么秘密木木木木木木木木木或多或多或多胡或付付 什么秘密木木木木木木木木木或多或多或多胡或付付 什么秘密木木木木木木木木木或多或多或多胡或付付
+    什么秘密木木木木木木木木木或多或多或多胡或付付 什么秘密木木木木木木木木木或多或多或多胡或付付 什么秘密木木木木木木木木木或多或多或多胡或付付 什么秘密木木木木木木木木木或多或多或多胡或付付 什么秘密木木木木木木木木木或多或多或多胡或付付 什么秘密木木木木木木木木木或多或多或多胡或付付 什么秘密木木木木木木木木木或多或多或多胡或付付 什么秘密木木木木木木木木木或多或多或多胡或付付 什么秘密木木木木木木木木木或多或多或多胡或付付 什么秘密木木木木木木木木木或多或多或多胡或付付 什么秘密木木木木木木木木木或多或多或多胡或付付
+  </view>
+</view>
+<cover-view style="width:100%;height:90rpx;bottom:0;position:fixed;background: red;z-index: 100000;">
+<button bindtap="actioncnt" style="width:100%;height:90rpx;">点击设置</button>
+</cover-view>

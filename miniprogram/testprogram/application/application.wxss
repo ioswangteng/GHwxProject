@@ -1,0 +1,5 @@
+/* miniprogram/testprogram/application/application.wxss */
+
+.firstList{
+  margin-top: 0;
+}

@@ -1,0 +1,59 @@
+/* miniprogram/testprogram/my/my.wxss */
+@import "../../style/help.wxss";
+
+.leftText {
+  font-size: 34rpx;
+  font-weight: bold;
+  padding-left: 20rpx;
+  flex-shrink: 0;
+  width: 50%;
+}
+
+.rightText {
+  font-size: 32rpx;
+  font-weight: normal;
+  margin-right: 20rpx;
+  width: 50%;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: yellowgreen; */
+  width: 100%;
+}
+.headerView {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: left; */
+  align-items: center;
+  /* background-color: rosybrown; */
+  /* margin-left: 10rpx; */
+  width: 80%;
+}
+.testAcross {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40rpx;
+  width: 40rpx;
+ /* background-color: orange; */
+}
+
+.img {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.imgview {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.firstList{
+  margin-top: 0;
+}
